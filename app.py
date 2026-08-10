@@ -5,4 +5,4 @@ st.write("Hello! My Streamlit app is successfully deployed!")
 
 name = st.text_input("Enter your name:")
 if name:
-  st.danger(f"Hello, {name}!")
+  st.success(f"Hello, {name}!")
