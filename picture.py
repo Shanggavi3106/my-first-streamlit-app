@@ -1,5 +1,5 @@
 import streamlit as st
-import os
+import download
 
 st.divider()
-st.image(os.path.join(os.getcwd(), "static", "picture.jpg" ))
+st.image(download.path.join(os.getcwd(), "static", "picture.jpg" ))
